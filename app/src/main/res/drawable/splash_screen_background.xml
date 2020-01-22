@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+    <item>
+        <shape
+            android:dither="true"
+            android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:endColor="@color/colorHibiscus"
+                android:startColor="@color/colorEminence" />
+        </shape>
+    </item>
+    <item android:bottom="100dp">
+        <bitmap android:gravity="center"
+            android:src="@drawable/logo" />
+    </item>
+</layer-list>
